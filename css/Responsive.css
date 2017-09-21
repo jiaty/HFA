@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+/* clearfix */
+.cf { zoom: 1; }
+.cf:before, .cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+
+/* /_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_
+各裝置的共同樣式， 及手機、小尺寸平板設定
+/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_*/
+
+body {
+    font: 62.5%/1.4 helvetica, arial, sans-serif;
+	font-family:微軟正黑體;
+	width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#logo {
+    padding: 0em 1em;
+    float: left;
+    margin: 0 0 1em;
+}
+p {
+    font-size: 1.8em;
+    line-height: 1.4;
+    margin: 0 .3em 1em;
+}
+a {
+	text-decoration: none;
+	color:#F2C84B;
+}
+a:hover {
+	color:#350C40;
+	text-decoration: underline;
+}
+a.skip {
+    position: absolute;
+    left: -999em;
+}
+header {
+	padding: 1% 5%;
+	background-color: #A30F7C;
+	border-bottom:solid 5px #350C40;
+	z-index:9999999;
+	overflow: hidden;
+}
+.nav-primary h3 {
+    position: absolute;
+    left: -999em;
+}
+.nav-primary ul {
+    border: 1px solid #F2E1D8;
+}
+.nav-primary li {
+    font-size: 2em;
+    border-bottom: 1px solid #F2E1D8;
+}
+.nav-primary li:last-child {
+    border-bottom: 0;
+}
+.nav-primary a {
+    display: block;
+    padding: .5em .8em;
+    text-decoration: none;
+    color: #fff;
+}
+.nav-primary a:hover {
+    background-color: #58A65D;
+}
+.nav-primary .nav-current {
+    font-weight: bold;
+}
+
+.nav-menu .nav-primary {
+    margin: 0 0 1.5em;
+    position: relative;
+    overflow: hidden;
+}
+.nav-menu .nav-primary a {
+    padding-right: 3em;
+}
+.nav-menu .nav-primary h3 {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    display: block;
+    width: 4em;
+    height: 4.5em;
+    background: #ccc url(img/icons.png) no-repeat -205px 45%;
+    text-indent: -999em;
+    cursor: pointer;
+}
+.nav-menu .nav-primary.expanded h3 {
+    background-position: -169px 45%;
+}
+.nav-menu .nav-primary li {
+    clear: left;
+    display: none;
+}
+.nav-menu .nav-primary.expanded li,
+.nav-menu .nav-primary li.nav-current {
+    display: list-item;
+}
+.nav-menu .nav-primary li.nav-current {
+    border-bottom-width: 0;
+}
+.nav-menu .nav-primary.expanded li.nav-current {
+    border-bottom-width: 1px;
+}
+.nav-primary {
+    clear: left;
+    margin: 0 0 2em;
+}
+/*==========================================
+  page top button style
+===========================================*/
+a#pagetopBtn img {
+  position:fixed;
+  bottom:10px;
+  right:1px;
+}
+
+#bottombar {
+	color: #fff;
+	font-size: 1.5em;
+	text-align: center;
+	text-shadow:1px 1px 0px #350C40;
+	background-color: #45403D;
+}
+
+/* /_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_
+依 Media Querie切換
+/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_*/
+/* 481px [tablet-size] */
+@media only screen and (min-width: 481px) {
+.concept .text{
+	padding: 80px 0;
+	font-size: 1.8em;
+}
+}
+/* 電腦及大尺寸平板樣板：769px ～ 960px */
+@media only screen and (min-width: 769px) {
+.nav-primary ul {
+    float: left;
+}
+.nav-primary ul {
+    float: left;
+}
+.nav-primary li {
+    float: left;
+    font-size: 2em;
+    border-bottom: 0;
+}
+}
+/* 電腦更大及大尺寸平板樣板：961px以上 */
+@media only screen and (min-width: 961px) {
+.nav-primary {
+     float: right;
+     clear: none;
+   }
+}

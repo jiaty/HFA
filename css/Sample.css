@@ -1,0 +1,70 @@
+@charset "utf-8";
+.visaul {
+	background-image: url(../res/background.jpg);
+	background-position: center center;
+	background-repeat: repeat;
+	border-bottom: 3px solid #350C40;
+	background-size: cover;
+	padding-left:1%;
+}
+.visaul .visualWrap {
+	width: 100%;
+	background-image:url(../res/travel.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 13%;
+}
+.visualContent {
+	display:block;
+	overflow: hidden;
+	width: 80%;
+	margin:0 auto;
+	color: #fff;
+	text-shadow:1px 1px 2px #350C40;
+	line-height: 1;
+	position: relative;
+	padding: 5% 0 3% 0;
+	
+}
+.visualContent .visualTitle {
+	display:block;
+	float: left;
+	padding: 0 0 0 5%;
+}
+.visualContent .visualTitle h2{
+	display:block;
+	font-weight: normal;
+	font-size: 5em;
+	margin:0 0 2% 0;
+}
+
+.visualContent .visualTitle h3{
+	display:block;
+	font-weight: normal;
+	font-size:2em;
+	margin: 0 0 1% 0;
+}
+
+@media only screen and (min-width: 769px) {
+.visual {
+	padding-left:5%;
+}
+.visualContent {
+	width: 80%;
+	padding: 3% 0 2% 0;
+	background-image:;
+	background-position: right center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.visualContent .visualTitle h2{
+	font-size: 9em;
+	margin:0 0 2% 0;
+}
+
+.visualContent .visualTitle h3{
+	font-size:2.5em;
+	margin: 0 0 1% 0;
+}
+}
+

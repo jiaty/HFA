@@ -1,0 +1,144 @@
+@charset "utf-8";
+.visaul {
+	background-image: url(../res/background_visual00.jpg);
+	background-position: center center;
+	background-repeat: repeat;
+	border-bottom: 3px solid #350C40;
+	background-size: cover;
+	padding-left:10%;
+}
+.visaul .visualWrap {
+	width: 90%;
+	background-image:url(../res/visitFA.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 15%;
+}
+.visualContent {
+	display:block;
+	overflow: hidden;
+	width: 75%;
+	margin:0 auto;
+	color: #350C40;
+	text-shadow:1px 1px 2px #58A65D;
+	line-height: 1;
+	position: relative;
+	padding: 5% 0 3% 0;
+	
+}
+.visualContent .visualTitle {
+	display:block;
+	float: left;
+	padding: 0 0 0 5%;
+}
+.visualContent .visualTitle a {
+	color: #FEF63C;
+	text-shadow:1px 1px 1px #000;
+}
+.visualContent .visualTitle a:hover {
+	color: #D91136;
+}
+.visualContent .visualTitle h2{
+	display:block;
+	font-weight: normal;
+	font-size: 3.5em;
+	margin:0 0 2% 0;
+}
+
+.visualContent .visualTitle h3{
+	display:block;
+	font-weight: normal;
+	font-size:2em;
+	margin: 0 0 1% 0;
+}
+.FA_main {
+}
+.FAintro {
+    text-align: center;
+	background-image: url(../res/propose.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	font-size: 0.7em;
+}
+.FAintro .propose{
+    vertical-align: middle;
+	color:#fff;
+	text-shadow:1px 2px 1px #350C40;
+    font-size: 1.5em;
+	line-height:0.8;
+	padding: 1% 1% 1% 1%;
+}
+.FAplan {
+	text-align: left;
+	background-image: url(../res/plan.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	font-size: 0.9em;
+}
+.FAplan .plan {
+	vertical-align: middle;
+	color:#fff;
+	text-shadow:1px 1px 1px #350C40;
+    font-size: 1em;
+	line-height:0.8;
+	padding: 1% 1% 1% 1%;
+}
+.p_title {
+	text-align: center;
+    font-size:2.5em;
+	color: #fff;
+	text-shadow:1px 1px 2px #350C40;
+	width: 90%;
+	border: 1px solid #fff;
+	margin: 2% 5% 2% 5%;
+	padding: 1% 0 1% 0;
+}
+.p_content {
+	width: 90%;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 2% 5% 2% 5%;
+}
+.organization_wrap {
+	background-image: url(../res/organization.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.organization {
+	text-align: center;
+	padding: 1% 1% 1% 1%;
+}
+@media only screen and (min-width: 769px) {
+.visual {
+	padding-left:5%;
+}
+.visaul .visualWrap {
+	background-size: 12%;
+}
+.visualContent {
+	width: 80%;
+	padding: 3% 0 2% 0;
+	background-image:;
+	background-position: right center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.visualContent .visualTitle h2{
+	font-size: 3em;
+	margin:0 0 2% 0;
+}
+
+.visualContent .visualTitle h3{
+	font-size:1.5em;
+	margin: 0 0 1% 0;
+}
+.FA_main {
+	font-size: 0.8em;
+}
+.FAintro {
+	font-size: 0.9em;
+}
+}
+

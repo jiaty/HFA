@@ -1,0 +1,222 @@
+@charset "utf-8";
+.visaul {
+	background-image: url(../res/background_visual04.jpg);
+	background-position: center center;
+	background-repeat: repeat;
+	border-bottom: 3px solid #350C40;
+	background-size: cover;
+	padding-left:10%;
+}
+.visaul .visualWrap {
+	width: 90%;
+	background-image:url(../res/travel.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 15%;
+}
+.visualContent {
+	display:block;
+	overflow: hidden;
+	width: 75%;
+	margin:0 auto;
+	color: #fff;
+	text-shadow:1px 1px 0px #350C40;
+	line-height: 1;
+	position: relative;
+	padding: 5% 0 3% 0;
+	
+}
+.visualContent .visualTitle {
+	display:block;
+	float: left;
+	padding: 0 0 0 5%;
+}
+.visualContent .visualTitle a {
+	color: #F28CC4;
+}
+.visualContent .visualTitle a:hover {
+	color: #D91136;
+}
+.visualContent .visualTitle h2{
+	display:block;
+	font-weight: normal;
+	font-size: 3.5em;
+	margin:0 0 2% 0;
+}
+
+.visualContent .visualTitle h3{
+	display:block;
+	font-weight: normal;
+	font-size:2em;
+	margin: 0 0 1% 0;
+}
+
+#travelSpc {
+    margin: 0 auto;
+    width: 100%;
+}
+#travelSpc section ul {
+    overflow: hidden;
+}
+#travelSpc section ul li {
+    padding: 1% 0;
+    position: relative;
+	min-height: 250px;
+}
+.left_block {
+	display: block;
+	width:100%;
+}
+.right_block {
+	display: block;
+	width:100%;
+}
+.trvel_spot {
+    color: #fff;
+	text-shadow:1px 1px 1px #350C40;
+    font-size: 2.5em;
+    line-height: 1;
+    text-align: center;
+	margin-top:1%;
+}
+#travelSpc .blo_in {
+    margin: 0 auto;
+    width: 98%;
+}
+#travelSpc section ul li .blo_in h1 {
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1;
+	margin-bottom:1%;
+}
+#travelSpc section ul li .blo_in .blo_text {
+	text-align: center;
+	color: #350C40;
+	font-size: 0.8em;
+}
+#t01 .left_block {
+    background-image: url(../res/WindmillLongBeach2.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#t01 .right_block {
+    background-image: url(../res/background00.jpg);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+#t02 .left_block {
+    background-image: url(../res/barrack.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#t02 .right_block {
+    background-image: url(../res/background02.jpg);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+#t03 .left_block {
+    background-image: url(../res/cookieSchool.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#t03 .right_block {
+    background-image: url(../res/background00.jpg);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+#t04 .left_block {
+    background-image: url(../res/community.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#t04 .right_block {
+    background-image: url(../res/background04.jpg);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+#t05 .left_block {
+    background-image: url(../res/drum.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#t05 .right_block {
+    background-image: url(../res/background00.jpg);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+#t06 .left_block {
+    background-image: url(../res/hfa.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#t06 .right_block {
+    background-image: url(../res/background06.jpg);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 769px) {
+.visual {
+	padding-left:5%;
+}
+.visaul .visualWrap {
+	background-size: 12%;
+}
+.visualContent {
+	width: 80%;
+	padding: 3% 0 2% 0;
+	background-image:;
+	background-position: right center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.visualContent .visualTitle h2{
+	font-size: 3em;
+	margin:0 0 2% 0;
+}
+.visualContent .visualTitle h3{
+	font-size:1.5em;
+	margin: 0 0 1% 0;
+}
+#travelSpc section ul li {
+	width: 50%;
+	min-height: 220px;
+}
+.left_block {
+	float:left;
+}
+.right_block {
+	float:right;
+}
+#t02 .left_block {
+	float:right;
+}
+#t02 .right_block {
+	float:left;
+}
+#t04 .left_block {
+	float:right;
+}
+#t04 .right_block {
+	float:left;
+}
+#t06 .left_block {
+	float:right;
+}
+#t06 .right_block {
+	float:left;
+}
+}

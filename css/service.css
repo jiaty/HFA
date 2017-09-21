@@ -1,0 +1,330 @@
+@charset "utf-8";
+.visaul {
+	background-image: url(../res/background_visual.jpg);
+	background-position: canter center;
+	background-repeat: repeat;
+	border-bottom: 3px solid #350C40;
+	background-size: cover;
+}
+.visualContent {
+	display:block;
+	overflow: hidden;
+	width: 80%;
+	margin:0 auto;
+	color: #fff;
+	text-shadow:1px 1px 1px #350C40;
+	line-height: 1;
+	position: relative;
+	padding: 5% 0 3% 0;
+}
+.visualContent .visualTitle {
+	display:block;
+	float: left;
+	padding: 0 0 0 5%;
+}
+.visualContent .visualTitle h2{
+	display:block;
+	font-weight: normal;
+	font-size: 3.5em;
+	margin:0 0 2% 0;
+}
+
+.visualContent .visualTitle h3{
+	display:block;
+	font-weight: normal;
+	font-size:2em;
+	margin: 0 0 1% 0;
+}
+
+.serviceSpace {
+}
+#n01 {
+	background-image: url(../res/finance.jpg);
+	background-repeat: no-repeat;
+	background-position:  center center;
+	background-size: cover;
+	width:100%;
+}
+#n02 {
+	background-image: url(../res/promotion.jpg);
+	background-repeat: no-repeat;
+	background-position:  center center;
+	background-size: cover;
+	width:100%;
+}
+#n03 {
+	background-image: url(../res/marketing.jpg);
+	background-repeat: no-repeat;
+	background-position:  center center;
+	background-size: cover;
+	width:100%;
+}
+#n04 {
+	background-image: url(../res/insurance.jpg);
+	background-repeat: no-repeat;
+	background-position:  center center;
+	background-size: cover;
+	width:100%;
+}
+#n05 {
+	background-image: url(../res/accounting.jpg);
+	background-repeat: no-repeat;
+	background-position:  center center;
+	background-size: cover;
+	width:100%;
+}
+.service .service_title {
+	width: 100%;
+	color: #8C0D6A;
+	text-shadow:1px 1px 1px #fff;
+	line-height: 1.3;
+	text-align:center;
+	overflow: hidden;
+	margin:0 auto;
+	padding: 5% 0;
+}
+.service .service_title figure {
+	width: 100%;
+	font-size: 5em;
+	font-style: italic;
+	float: left;
+	margin:0 5% 0 0;
+}
+.service .service_title .service_title_text {
+	display: block;
+	padding: 2% 0;
+}
+.service .service_title .service_title_text h1{
+	display: block;
+	font-size:4.5em;
+	font-weight: normal;
+	
+}
+.service .service_title .service_title_text h2{
+	display:block;
+	font-size: 3em;
+	font-weight: normal;
+}
+
+.service_content {
+    margin: 0 auto;
+    padding: 2% 0;
+    width: 98%;
+}
+
+.ServiceContent_wrp {
+    margin: 0 0 2%;
+    overflow: hidden;
+}
+
+.service_content figure {
+    float: left;
+    margin: 0 2% 0 0;
+    width: 18%;
+}
+
+.service_content figure img {
+    width: 100%;
+	height:auto;
+}
+
+.service_content .illustration h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0 0 2%;
+}
+.service_content .serviceBlock {
+    border: 1px solid #58A65D;
+    overflow: hidden;
+	box-sizing: border-box;
+	margin: 0 0 2%;
+}
+.service_content .serviceBlock .img_area figure{
+	width: 100%;
+	color:#fff;
+	background-color:#58A65D;
+	text-align:center;
+	font-size: 2em;
+}
+.service_content .serviceBlock .img_area img {
+    width: 100%;
+	height:50%;
+}
+
+.service_content .serviceBlock .block_text {
+    padding: 2% 10% 1% 10%;
+}
+.service_content .serviceBlock2 {
+    border: 1px solid #F2E1D8;
+    overflow: hidden;
+	box-sizing: border-box;
+	margin: 0 0 2%;
+}
+.service_content .serviceBlock2 .img_area figure{
+	width: 100%;
+	color:#fff;
+	background-color:#58A65D;
+	text-align:center;
+	font-size: 3em;
+}
+#blockSub_text {
+}
+#blockSub_imgArea {
+}
+#blockSub_imgArea figure {
+	background-color:#D91136;
+}
+#award {
+	max-width: 173px;
+}
+#farmer {
+	max-width: 640px;
+}
+#backText1 {
+	margin-left: 2em;
+}
+#backText2 {
+	margin-left: 4em;
+}
+
+/* /_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_
+依 Media Querie切換
+/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_*/
+
+/* 電腦及大尺寸平板樣板：769px ～ 960px */
+@media only screen and (min-width: 769px) {
+.visualContent {
+	padding: 3% 0 2% 0;
+	background-image:url(../res/service.png);
+	background-position: right center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.visualContent .visualTitle h2{
+	font-size: 3em;
+	margin:0 0 2% 0;
+}
+
+.visualContent .visualTitle h3{
+	font-size:1.5em;
+	margin: 0 0 1% 0;
+}
+.serviceSpace {
+	font-size: 0.7em;
+}
+.service .service_title {
+	width: 80%;
+	padding: 2% 0;
+	line-height:1;
+}
+.service .service_title figure {
+	font-size: 10em;
+	float: left;
+	margin:2% 5% 0 0;
+	width: 15%;
+}
+.service .service_title .service_title_text {
+	text-align:left;
+	width: 80%;
+	padding: 2% 0;
+}
+.service .service_title .service_title_text h1{
+	font-size:5em;
+	margin:0 0 2% 0;
+}
+
+.service .service_title .service_title_text h2{
+	font-size: 2em;
+}
+
+.service_content {
+	width: 80%;
+	margin:0 auto ;
+	padding: 4% 0;
+}
+.ServiceContent_wrp {
+	overflow: hidden;
+	margin:0 0 2% 0;
+}
+.service_content figure{
+	float: left;
+	width: 10%;
+	margin:0 2% 0 0;
+}
+.service_content figure img{
+	width: 100%;
+	height:auto;
+}
+.service_content .illustration{
+	float: left;
+	width: 80%;
+	padding: 2% 0;
+}
+.service_content .illustration h1{
+	font-size: 3em;
+	line-height: 1.2;
+	margin:0 0 20px 0;
+	font-weight: normal;
+}
+.service_content .illustration .illuContent{
+	font-size: 1em;
+}
+.service_content .serviceBlock {
+	overflow: hidden;
+	border:1px solid #58A65D;
+}
+.service_content .serviceBlock .img_area{
+	float: left;
+	width: 40%;
+	height:auto;
+}
+.service_content .serviceBlock .img_area figure{
+	width: 100%;
+	color:#fff;
+	background-color:#58A65D;
+	text-align:center;
+	font-size: 3em;
+}
+.service_content .serviceBlock .img_area img{
+	width: 100%;
+}
+.service_content .serviceBlock .block_text{
+	font-size:1em;
+	float: right;
+	padding: 2%;
+	width: 56%;
+}
+.service_content .serviceBlock2 {
+	overflow: hidden;
+	border:1px solid #58A65D;
+}
+.service_content .serviceBlock2 .img_area{
+	width: 100%;
+	height:100%;
+}
+.service_content .serviceBlock2 .img_area figure{
+	width: 100%;
+	color:#fff;
+	background-color:#58A65D;
+	text-align:center;
+	font-size: 3em;
+}
+.service_content .serviceBlock2 .block_text{
+	font-size:1em;
+	width: 100%;
+}
+#blockSub_text {
+	float:left;
+}
+#blockSub_imgArea {
+	float: right;
+}
+#blockSub_imgArea figure {
+	background-color:#D91136;
+}
+}
+/* 電腦更大及大尺寸平板樣板：961px以上 */
+@media only screen and (min-width: 961px) {
+
+}
